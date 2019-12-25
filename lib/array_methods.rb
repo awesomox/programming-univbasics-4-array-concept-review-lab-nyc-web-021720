@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  array.sort 
+  array = array.sort 
   puts array[0]
 end
 
